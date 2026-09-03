@@ -1,0 +1,39 @@
+name: Generate Pac-Man contribution graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 0 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/pacman.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-pacman
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+          player_style: conservative
+          hide_month_labels: "false"
+
+      - name: Publish SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="164" viewBox="0 0 560 164" role="img" aria-labelledby="title desc">
+  <title id="title">PHOQER repository</title><desc id="desc">An audio instrument currently in development.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#210a31"/><stop offset="1" stop-color="#0b0511"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b84dff"/><stop offset="1" stop-color="#ff4fb3"/></linearGradient></defs>
+  <rect x="2" y="2" width="556" height="160" rx="16" fill="url(#bg)" stroke="url(#edge)" stroke-width="3"/>
+  <text x="26" y="39" fill="#d68cff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">IN DEVELOPMENT</text>
+  <text x="26" y="75" fill="#ffd8f3" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">PHOQER</text>
+  <text x="26" y="103" fill="#dec2dc" font-family="Segoe UI, Arial, sans-serif" font-size="14">An instrument currently taking shape.</text>
+  <text x="26" y="132" fill="#d68cff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">AUDIO  /  INSTRUMENT  /  WIP</text>
+  <path d="M503 72H527M518 63L527 72L518 81" fill="none" stroke="#b84dff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
