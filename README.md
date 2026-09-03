@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.png" width="100%" alt="lew0nn — audio software and real-time DSP" />
+<img src="./assets/cyber-console.svg" width="100%" alt="lew0nn — animated audio signal control room" />
 
 <a href="https://github.com/lew0nn">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3200&pause=900&color=C090C0&center=true&vCenter=true&width=640&lines=Building+real-time+audio+systems;Turning+signals+into+controlled+damage;C%2B%2B+%E2%80%A2+JUCE+%E2%80%A2+DSP+%E2%80%A2+VST3;Making+annoying+noises+on+purpose" alt="Typing introduction" />
@@ -21,6 +21,8 @@
 </div>
 
 <br />
+
+<img src="./assets/signal-chase.svg" width="100%" alt="Animated signal chase" />
 
 ## About
 
@@ -64,6 +66,18 @@ Source-reactive industrial distortion with four parallel reactors. VST3 and Stan
 ### PHOQER · `in development`
 
 An instrument currently taking shape. More when it is ready.
+
+<br />
+
+## Recent rotation
+
+<div align="center">
+
+<a href="https://open.spotify.com/user/31tkdf56o4ybejfgvodwd2jy6ahi">
+  <img width="680" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31tkdf56o4ybejfgvodwd2jy6ahi&amp;count=4&amp;width=680&amp;bg_color=05030a&amp;text_color=E2D7E3&amp;artist_color=C090C0&amp;meta_color=725C75&amp;accent_color=903060&amp;logo_color=C090C0&amp;radius=8&amp;profile=off&amp;unique=1" alt="Recently played on Spotify" />
+</a>
+
+</div>
 
 <br />
 

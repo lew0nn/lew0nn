@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">lew0nn signal control room</title>
+  <desc id="desc">An animated midnight-purple workstation built around audio waveforms and real-time signal processing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#05030a"/>
+      <stop offset="0.55" stop-color="#180018"/>
+      <stop offset="1" stop-color="#08040d"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="48%">
+      <stop stop-color="#903060" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#903060" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1d0924"/>
+      <stop offset="1" stop-color="#09050f"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#481033"/>
+      <stop offset=".48" stop-color="#c090c0"/>
+      <stop offset="1" stop-color="#903060"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="20" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V20" fill="none" stroke="#481033" stroke-opacity=".28" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="mainScreen"><rect x="351" y="56" width="498" height="188" rx="6"/></clipPath>
+  </defs>
+
+  <style>
+    .trace { stroke-dasharray: 18 7; animation: trace 5s linear infinite; }
+    .scan { animation: scan 4.8s ease-in-out infinite; }
+    .blink-a { animation: blink 2.4s ease-in-out infinite; }
+    .blink-b { animation: blink 3.1s 1.1s ease-in-out infinite; }
+    .float { animation: float 4s ease-in-out infinite; transform-origin: center; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+    @keyframes trace { to { stroke-dashoffset: -100; } }
+    @keyframes scan { 0%,100% { transform: translateY(-70px); opacity: 0; } 15%,85% { opacity: .28; } 50% { transform: translateY(185px); } }
+    @keyframes blink { 0%,100% { opacity: .22; } 50% { opacity: 1; } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes pulse { 0%,100% { opacity: .45; transform: scale(.96); } 50% { opacity: 1; transform: scale(1.04); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect width="1200" height="360" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="14" fill="url(#halo)"/>
+  <path d="M0 286H1200V360H0Z" fill="#07040b"/>
+  <path d="M70 360L390 272H810L1130 360" fill="url(#grid)" opacity=".9"/>
+
+  <g opacity=".75">
+    <circle class="blink-a" cx="86" cy="52" r="2" fill="#c090c0"/>
+    <circle class="blink-b" cx="1094" cy="64" r="2" fill="#903060"/>
+    <circle class="blink-a" cx="1035" cy="112" r="1.5" fill="#c090c0"/>
+    <path d="M0 92H190L220 62H310" fill="none" stroke="#481033" stroke-width="2"/>
+    <path d="M1200 104H1030L1002 76H910" fill="none" stroke="#481033" stroke-width="2"/>
+  </g>
+
+  <!-- side telemetry -->
+  <g class="float">
+    <path d="M72 109L295 86V235L72 218Z" fill="#0b0611" stroke="#481033" stroke-width="3"/>
+    <path d="M91 119L276 101V218L91 205Z" fill="url(#screen)"/>
+    <path d="M112 167H145L158 144L177 190L195 158L211 177H258" fill="none" stroke="#903060" stroke-width="3" filter="url(#glow)"/>
+    <g fill="#c090c0">
+      <rect class="blink-a" x="111" y="126" width="64" height="4" rx="2"/>
+      <rect x="111" y="136" width="39" height="3" rx="1.5" opacity=".42"/>
+      <rect class="blink-b" x="217" y="126" width="40" height="4" rx="2"/>
+    </g>
+  </g>
+
+  <g class="float" style="animation-delay:-1.5s">
+    <path d="M1128 109L905 86V235L1128 218Z" fill="#0b0611" stroke="#481033" stroke-width="3"/>
+    <path d="M1109 119L924 101V218L1109 205Z" fill="url(#screen)"/>
+    <g fill="#903060">
+      <rect x="949" y="128" width="13" height="62" rx="2" opacity=".38"/>
+      <rect class="blink-b" x="970" y="151" width="13" height="39" rx="2"/>
+      <rect x="991" y="117" width="13" height="73" rx="2" opacity=".56"/>
+      <rect class="blink-a" x="1012" y="139" width="13" height="51" rx="2"/>
+      <rect x="1033" y="161" width="13" height="29" rx="2" opacity=".4"/>
+      <rect x="1054" y="123" width="13" height="67" rx="2" opacity=".7"/>
+    </g>
+  </g>
+
+  <!-- main signal display -->
+  <g>
+    <rect x="330" y="35" width="540" height="230" rx="15" fill="#09050f" stroke="#692455" stroke-width="4"/>
+    <rect x="348" y="53" width="504" height="194" rx="8" fill="url(#screen)" stroke="#481033" stroke-width="2"/>
+    <g clip-path="url(#mainScreen)">
+      <path d="M351 92H849M351 132H849M351 172H849M351 212H849M410 56V244M490 56V244M570 56V244M650 56V244M730 56V244M810 56V244" stroke="#481033" stroke-opacity=".25"/>
+      <rect class="scan" x="351" y="54" width="498" height="44" fill="url(#wave)" opacity=".15"/>
+      <path class="trace" pathLength="100" d="M366 159H399L410 142L422 178L436 122L452 193L468 150L481 164H512L524 137L539 182L554 109L570 199L585 151L600 160H630L643 143L658 180L672 129L688 189L704 151L720 162H751L764 139L779 178L792 147L807 162H834" fill="none" stroke="url(#wave)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+      <path d="M366 216H472M728 216H834" stroke="#725c75" stroke-width="2" opacity=".55"/>
+      <circle class="pulse" cx="600" cy="160" r="8" fill="#c090c0" filter="url(#glow)"/>
+    </g>
+    <text x="372" y="78" fill="#725c75" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">SIGNAL / CONTROL</text>
+    <text x="828" y="78" text-anchor="end" fill="#c090c0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11">48 kHz</text>
+    <path d="M568 265H632L649 288H551Z" fill="#0b0611" stroke="#481033" stroke-width="2"/>
+  </g>
+
+  <!-- desk and operator silhouette -->
+  <path d="M224 279L346 251H854L976 279L926 312H274Z" fill="#0c0711" stroke="#481033" stroke-width="3"/>
+  <g opacity=".8">
+    <rect x="286" y="271" width="110" height="7" rx="3.5" fill="#481033"/>
+    <rect class="blink-a" x="408" y="271" width="22" height="7" rx="3.5" fill="#c090c0"/>
+    <rect x="770" y="271" width="144" height="7" rx="3.5" fill="#481033"/>
+    <rect class="blink-b" x="738" y="271" width="22" height="7" rx="3.5" fill="#903060"/>
+  </g>
+  <ellipse cx="600" cy="281" rx="79" ry="22" fill="#05030a"/>
+  <circle cx="600" cy="246" r="36" fill="#05030a" stroke="#1f0a22" stroke-width="3"/>
+  <path d="M518 340C522 294 551 270 600 270S678 294 682 340Z" fill="#05030a" stroke="#1f0a22" stroke-width="3"/>
+  <path d="M600 282V334" stroke="#481033" stroke-width="2" opacity=".5"/>
+
+  <rect x="1" y="1" width="1198" height="358" rx="13" fill="none" stroke="#481033" stroke-opacity=".55" stroke-width="2"/>
+</svg>
