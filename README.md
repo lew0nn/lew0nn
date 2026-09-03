@@ -1,86 +1,84 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020617,50:0e7490,100:22d3ee&height=230&section=header&text=lew0nn&fontSize=72&fontColor=e2e8f0&animation=fadeIn&fontAlignY=40&desc=Audio%20Software%20Developer&descSize=17&descAlignY=61" width="100%" alt="lew0nn — Audio Software Developer" />
+<img src="./assets/profile-hero.png" width="100%" alt="lew0nn — audio software and real-time DSP" />
 
 <a href="https://github.com/lew0nn">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+real-time+audio+systems;Turning+signals+into+controlled+damage;C%2B%2B+%E2%80%A2+JUCE+%E2%80%A2+DSP+%E2%80%A2+VST3;Making+annoying+noises+on+purpose" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3200&pause=900&color=C090C0&center=true&vCenter=true&width=640&lines=Building+real-time+audio+systems;Turning+signals+into+controlled+damage;C%2B%2B+%E2%80%A2+JUCE+%E2%80%A2+DSP+%E2%80%A2+VST3;Making+annoying+noises+on+purpose" alt="Typing introduction" />
 </a>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=lew0nn&label=Profile%20Views&color=0891b2&style=for-the-badge" alt="Profile views" />
-  <a href="https://github.com/lew0nn?tab=followers"><img src="https://img.shields.io/github/followers/lew0nn?label=Followers&style=for-the-badge&color=0891b2&labelColor=0f172a&logo=github" alt="Followers" /></a>
-  <img src="https://img.shields.io/badge/Focus-Audio%20DSP-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Focus — Audio DSP" />
+  <img src="https://komarev.com/ghpvc/?username=lew0nn&label=PROFILE%20VIEWS&color=903060&style=flat-square" alt="Profile views" />
+  <a href="https://github.com/lew0nn?tab=followers"><img src="https://img.shields.io/github/followers/lew0nn?label=FOLLOWERS&style=flat-square&color=903060&labelColor=180018&logo=github&logoColor=C090C0" alt="Followers" /></a>
+  <img src="https://img.shields.io/badge/FOCUS-AUDIO%20DSP-903060?style=flat-square&labelColor=180018" alt="Focus — Audio DSP" />
 </p>
 
-<p>
-  <a href="https://github.com/lew0nn"><img src="https://img.shields.io/badge/GitHub-Profile-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://github.com/lew0nn/voidworm"><img src="https://img.shields.io/badge/Project-VOIDWORM-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="VOIDWORM" /></a>
-  <a href="https://github.com/lew0nn/voidworm/releases"><img src="https://img.shields.io/badge/Get-Releases-22d3ee?style=for-the-badge&labelColor=0f172a" alt="VOIDWORM releases" /></a>
-</p>
+<a href="https://github.com/lew0nn">profile</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/lew0nn?tab=repositories">projects</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/lew0nn/voidworm/releases">releases</a>
 
 </div>
 
 <br />
 
-## About Me
+## About
 
 ```yaml
-name:       "lewonn"
-role:       "Audio Software Developer"
-focus:      ["audio plug-ins", "instruments", "real-time DSP"]
-stack:      ["C++", "JUCE", "CMake"]
-targets:    ["VST3", "Standalone", "Windows"]
-currently:  ["VOIDWORM", "PHOQER"]
+name:      "lewonn"
+role:      "Audio Software Developer"
+focus:     ["audio plug-ins", "instruments", "real-time DSP"]
+stack:     ["C++", "JUCE", "CMake"]
+shipping:  "VOIDWORM"
+building:  "PHOQER"
 ```
 
+I build audio software where signal processing, interface design, and controlled instability meet. The machinery can be complicated; using it should not be.
+
 <br />
 
-## Tech Stack
+## Stack
 
 <div align="center">
 
-**Core Tools**
-
-<img src="https://skillicons.dev/icons?i=cpp,cmake,git,github,githubactions,visualstudio,vscode&theme=dark" alt="C++, CMake, Git, GitHub, GitHub Actions, Visual Studio, and VS Code" />
-
-<br /><br />
-
-`JUCE` · `REAL-TIME DSP` · `VST3` · `STANDALONE AUDIO`
+![C++](https://img.shields.io/badge/C%2B%2B-180018?style=flat-square&logo=cplusplus&logoColor=C090C0)
+![JUCE](https://img.shields.io/badge/JUCE-180018?style=flat-square&logoColor=C090C0)
+![DSP](https://img.shields.io/badge/REAL--TIME%20DSP-180018?style=flat-square&logoColor=C090C0)
+![VST3](https://img.shields.io/badge/VST3-180018?style=flat-square&logoColor=C090C0)
+![CMake](https://img.shields.io/badge/CMake-180018?style=flat-square&logo=cmake&logoColor=C090C0)
+![Windows](https://img.shields.io/badge/Windows-180018?style=flat-square&logo=windows&logoColor=C090C0)
+![GitHub Actions](https://img.shields.io/badge/Actions-180018?style=flat-square&logo=githubactions&logoColor=C090C0)
 
 </div>
 
 <br />
 
-## Current Work
+## Projects
 
-### [VOIDWORM](https://github.com/lew0nn/voidworm)
+### [VOIDWORM](https://github.com/lew0nn/voidworm) · `released`
 
-Source-reactive industrial distortion with four parallel reactors. Available as VST3 and Standalone for Windows.
+Source-reactive industrial distortion with four parallel reactors. VST3 and Standalone for Windows.
 
-[Source](https://github.com/lew0nn/voidworm) · [Releases](https://github.com/lew0nn/voidworm/releases)
+[source](https://github.com/lew0nn/voidworm) · [download](https://github.com/lew0nn/voidworm/releases)
 
-### PHOQER
+### PHOQER · `in development`
 
-An instrument currently in development. More when it is ready.
+An instrument currently taking shape. More when it is ready.
 
 <br />
 
-## GitHub Stats
+## GitHub
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=lew0nn&show_icons=true&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=cbd5e1&icon_color=0891b2&include_all_commits=true&count_private=true" alt="lew0nn GitHub stats" />
-<img height="165" src="https://streak-stats.demolab.com?user=lew0nn&hide_border=true&background=00000000&stroke=334155&ring=22d3ee&fire=0891b2&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=22d3ee&sideLabels=94a3b8&dates=64748b" alt="GitHub contribution streak" />
-
-<br />
-
-<img height="155" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=lew0nn&layout=compact&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=cbd5e1&langs_count=8" alt="Most used languages" />
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=lew0nn&show_icons=true&hide_border=true&bg_color=00000000&title_color=C090C0&text_color=BBA7BD&icon_color=903060&include_all_commits=true" alt="lew0nn GitHub stats" />
+<img height="165" src="https://streak-stats.demolab.com?user=lew0nn&hide_border=true&background=00000000&stroke=481033&ring=C090C0&fire=903060&currStreakNum=E2D7E3&sideNums=E2D7E3&currStreakLabel=C090C0&sideLabels=BBA7BD&dates=725C75" alt="GitHub contribution streak" />
 
 </div>
 
 <br />
 
-## Contribution Snake
+## Contributions
 
 <div align="center">
 
@@ -90,12 +88,8 @@ An instrument currently in development. More when it is ready.
   <img alt="GitHub contribution snake" src="./assets/github-snake.svg" />
 </picture>
 
-</div>
+<br /><br />
 
-<br />
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:22d3ee,50:0e7490,100:020617&height=120&section=footer&text=signal%20continues&fontSize=20&fontColor=e2e8f0&fontAlignY=72" width="100%" alt="Signal continues" />
+<sub>building things that react, distort, and stay playable</sub>
 
 </div>
