@@ -3,19 +3,19 @@
   <desc id="desc">A smooth animated workstation in bright violet and magenta, centered on real-time audio signals.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#07030d"/><stop offset=".52" stop-color="#1b061d"/><stop offset="1" stop-color="#09040f"/>
+      <stop stop-color="#070a18"/><stop offset=".52" stop-color="#0d1230"/><stop offset="1" stop-color="#080b1c"/>
     </linearGradient>
     <radialGradient id="halo" cx="50%" cy="44%" r="50%">
-      <stop stop-color="#ff4fb3" stop-opacity=".24"/><stop offset=".62" stop-color="#b84dff" stop-opacity=".08"/><stop offset="1" stop-color="#05030a" stop-opacity="0"/>
+      <stop stop-color="#3f6cff" stop-opacity=".25"/><stop offset=".62" stop-color="#7446df" stop-opacity=".1"/><stop offset="1" stop-color="#060817" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#2b0a30"/><stop offset="1" stop-color="#0d0714"/>
+      <stop stop-color="#121942"/><stop offset="1" stop-color="#090d24"/>
     </linearGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#b84dff"/><stop offset=".5" stop-color="#ffd0f2"/><stop offset="1" stop-color="#ff4fb3"/>
+      <stop stop-color="#7446df"/><stop offset=".5" stop-color="#d5dcff"/><stop offset="1" stop-color="#3f6cff"/>
     </linearGradient>
     <pattern id="grid" width="52" height="24" patternUnits="userSpaceOnUse">
-      <path d="M52 0H0V24" fill="none" stroke="#9d3bb0" stroke-opacity=".18"/>
+      <path d="M52 0H0V24" fill="none" stroke="#5c48bd" stroke-opacity=".2"/>
     </pattern>
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
@@ -38,19 +38,19 @@
   </style>
   <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
   <rect width="1200" height="360" rx="18" fill="url(#halo)"/>
-  <path d="M0 286H1200V360H0Z" fill="#07030c"/>
+  <path d="M0 286H1200V360H0Z" fill="#060817"/>
   <path d="M84 360L395 278H805L1116 360" fill="url(#grid)"/>
   <g class="float-left">
-    <rect x="72" y="99" width="245" height="142" rx="18" fill="#0c0713" stroke="#a63883" stroke-width="3"/>
+    <rect x="72" y="99" width="245" height="142" rx="18" fill="#090d24" stroke="#4e46b8" stroke-width="3"/>
     <rect x="88" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
     <path d="M108 175C126 175 129 147 146 147S165 194 182 194S200 157 217 157S232 177 252 177H281" fill="none" stroke="url(#signal)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
-    <rect x="110" y="132" width="72" height="5" rx="2.5" fill="#f0a8e2"/>
-    <rect class="blink-a" x="220" y="132" width="57" height="5" rx="2.5" fill="#ff4fb3"/>
+    <rect x="110" y="132" width="72" height="5" rx="2.5" fill="#aebeff"/>
+    <rect class="blink-a" x="220" y="132" width="57" height="5" rx="2.5" fill="#3f6cff"/>
   </g>
   <g class="float-right">
-    <rect x="883" y="99" width="245" height="142" rx="18" fill="#0c0713" stroke="#a63883" stroke-width="3"/>
+    <rect x="883" y="99" width="245" height="142" rx="18" fill="#090d24" stroke="#4e46b8" stroke-width="3"/>
     <rect x="899" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
-    <g fill="#ff4fb3">
+    <g fill="#3f6cff">
       <rect x="930" y="161" width="14" height="42" rx="7" opacity=".55"/>
       <rect class="blink-b" x="958" y="143" width="14" height="60" rx="7"/>
       <rect x="986" y="128" width="14" height="75" rx="7" opacity=".68"/>
@@ -59,25 +59,25 @@
       <rect x="1070" y="137" width="14" height="66" rx="7" opacity=".72"/>
     </g>
   </g>
-  <rect x="298" y="35" width="604" height="236" rx="24" fill="#0a0511" stroke="#d04ca2" stroke-width="4"/>
-  <rect x="319" y="60" width="562" height="188" rx="18" fill="url(#screen)" stroke="#7b2564" stroke-width="2"/>
+  <rect x="298" y="35" width="604" height="236" rx="24" fill="#080b1c" stroke="#6552d9" stroke-width="4"/>
+  <rect x="319" y="60" width="562" height="188" rx="18" fill="url(#screen)" stroke="#3d3d9a" stroke-width="2"/>
   <g clip-path="url(#mainScreen)">
-    <path d="M321 102H879M321 146H879M321 190H879M400 62V246M480 62V246M560 62V246M640 62V246M720 62V246M800 62V246" stroke="#9d3bb0" stroke-opacity=".14"/>
-    <rect class="scan" x="321" y="62" width="558" height="48" fill="#ff4fb3" opacity=".18"/>
+    <path d="M321 102H879M321 146H879M321 190H879M400 62V246M480 62V246M560 62V246M640 62V246M720 62V246M800 62V246" stroke="#5c48bd" stroke-opacity=".16"/>
+    <rect class="scan" x="321" y="62" width="558" height="48" fill="#3f6cff" opacity=".2"/>
     <path class="trace" pathLength="100" d="M342 164C362 164 369 137 384 137S404 190 421 190S441 118 458 118S477 202 496 202S518 145 538 145S558 176 578 176S598 152 618 152S638 128 657 128S677 190 696 190S716 139 736 139S755 164 775 164H858" fill="none" stroke="url(#signal)" stroke-width="5" stroke-linecap="round" filter="url(#softGlow)"/>
-    <path d="M342 218H486M714 218H858" stroke="#d58bc9" stroke-width="2" stroke-linecap="round" opacity=".68"/>
+    <path d="M342 218H486M714 218H858" stroke="#8fa8ff" stroke-width="2" stroke-linecap="round" opacity=".72"/>
   </g>
-  <text x="348" y="88" fill="#e7a6dd" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.4">SIGNAL / CONTROL</text>
-  <text x="852" y="88" text-anchor="end" fill="#ffd0f2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11">48 kHz</text>
-  <path d="M566 271H634L650 291H550Z" fill="#0b0612" stroke="#9d3bb0" stroke-width="2" stroke-linejoin="round"/>
-  <rect x="190" y="276" width="820" height="48" rx="24" fill="#0c0713" stroke="#a63883" stroke-width="3"/>
-  <rect x="260" y="292" width="150" height="8" rx="4" fill="#7b2564"/>
-  <rect class="blink-a" x="422" y="292" width="30" height="8" rx="4" fill="#f0a8e2"/>
-  <rect x="790" y="292" width="150" height="8" rx="4" fill="#7b2564"/>
-  <rect class="blink-b" x="748" y="292" width="30" height="8" rx="4" fill="#ff4fb3"/>
+  <text x="348" y="88" fill="#b9c5ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.4">SIGNAL / CONTROL</text>
+  <text x="852" y="88" text-anchor="end" fill="#d5dcff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11">48 kHz</text>
+  <path d="M566 271H634L650 291H550Z" fill="#080b1c" stroke="#5c48bd" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="190" y="276" width="820" height="48" rx="24" fill="#090d24" stroke="#4e46b8" stroke-width="3"/>
+  <rect x="260" y="292" width="150" height="8" rx="4" fill="#3d3d9a"/>
+  <rect class="blink-a" x="422" y="292" width="30" height="8" rx="4" fill="#aebeff"/>
+  <rect x="790" y="292" width="150" height="8" rx="4" fill="#3d3d9a"/>
+  <rect class="blink-b" x="748" y="292" width="30" height="8" rx="4" fill="#3f6cff"/>
   <ellipse cx="600" cy="301" rx="88" ry="24" fill="#05030a"/>
-  <circle cx="600" cy="260" r="38" fill="#05030a" stroke="#3f1244" stroke-width="3"/>
-  <path d="M510 350C516 304 548 282 600 282S684 304 690 350Z" fill="#05030a" stroke="#3f1244" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M600 296V338" stroke="#a63883" stroke-width="2" stroke-linecap="round" opacity=".72"/>
-  <rect x="1.5" y="1.5" width="1197" height="357" rx="16.5" fill="none" stroke="#a63883" stroke-width="3"/>
+  <circle cx="600" cy="260" r="38" fill="#050711" stroke="#28286b" stroke-width="3"/>
+  <path d="M510 350C516 304 548 282 600 282S684 304 690 350Z" fill="#050711" stroke="#28286b" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M600 296V338" stroke="#4e46b8" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="16.5" fill="none" stroke="#4e46b8" stroke-width="3"/>
 </svg>
