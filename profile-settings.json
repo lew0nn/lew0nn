@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-signal.svg",
+  "backgroundColor": "#0b0f12",
+  "foregroundColor": "#b8c2c7",
+  "strongColor": "#43d9d3",
+  "weakColor": "#526168",
+  "radarColor": "#43d9d3",
+  "growingAnimation": true,
+  "contribColors": [
+    "#161d21",
+    "#17383a",
+    "#1f6062",
+    "#2d9695",
+    "#43d9d3"
+  ]
+}

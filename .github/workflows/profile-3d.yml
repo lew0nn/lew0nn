@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - .github/workflows/profile-3d.yml
+      - profile-settings.json
 
 permissions:
   contents: write
@@ -26,6 +27,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: profile-settings.json
+      - name: Keep the signal variant
+        run: find profile-3d-contrib -type f ! -name 'profile-signal.svg' -delete
       - name: Commit generated terrain
         run: |
           git config user.name github-actions
