@@ -157,7 +157,8 @@
   <g filter="url(#panelShadow)">
     <rect x="298" y="35" width="604" height="236" rx="24" fill="#07091c" stroke="url(#frame)" stroke-width="4"/>
     <rect x="306" y="43" width="588" height="220" rx="19" fill="url(#bezel)" stroke="#211d58" stroke-width="2"/>
-    <path d="M329 47H455M745 47H871" stroke="#8f6cff" stroke-opacity=".52" stroke-width="2" stroke-linecap="round"/>
+    <path d="M329 47H455" stroke="#d946ef" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+    <path d="M745 47H871" stroke="#22d3ee" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
     <path d="M312 84V214M888 84V214" stroke="#4461d9" stroke-opacity=".34"/>
     <g fill="#050615" stroke="#6655bd" stroke-width="1">
       <circle cx="320" cy="58" r="3"/><circle cx="880" cy="58" r="3"/>
@@ -170,18 +171,12 @@
   <g clip-path="url(#mainScreen)">
     <rect x="321" y="62" width="558" height="184" fill="url(#fineGrid)"/>
     <path d="M321 102H879M321 146H879M321 190H879M400 62V246M480 62V246M560 62V246M640 62V246M720 62V246M800 62V246" stroke="#5c48bd" stroke-opacity=".16"/>
-    <path d="M321 164H879" stroke="#9687ea" stroke-opacity=".18" stroke-dasharray="3 7"/>
     <rect class="scan" x="321" y="62" width="558" height="48" fill="#3f6cff" opacity=".16"/>
     <path d="M342 170C362 170 369 145 384 145S404 190 421 190S441 130 458 130S477 198 496 198S518 151 538 151S558 175 578 175S598 158 618 158S638 135 657 135S677 190 696 190S716 145 736 145S755 170 775 170H858" fill="none" stroke="#21164a" stroke-width="13" stroke-linecap="round" opacity=".6"/>
     <path class="trace" pathLength="100" d="M342 170C362 170 369 145 384 145S404 190 421 190S441 130 458 130S477 198 496 198S518 151 538 151S558 175 578 175S598 158 618 158S638 135 657 135S677 190 696 190S716 145 736 145S755 170 775 170H858" fill="none" stroke="url(#signal)" stroke-width="4.5" stroke-linecap="round" filter="url(#softGlow)"/>
-    <path d="M342 218H486M714 218H858" stroke="#8fa8ff" stroke-width="2" stroke-linecap="round" opacity=".72"/>
-    <path d="M342 225H430M770 225H858" stroke="#3f6cff" stroke-width="1" stroke-linecap="round" opacity=".5" stroke-dasharray="5 4"/>
+    <path d="M342 218H486" stroke="#d946ef" stroke-width="2" stroke-linecap="round" opacity=".62"/>
+    <path d="M714 218H858" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" opacity=".68"/>
     <path d="M321 62L450 62L348 246H321Z" fill="url(#screenGlass)" opacity=".25"/>
-    <g fill="#6e62b3" opacity=".52">
-      <circle cx="400" cy="164" r="1.8"/><circle cx="480" cy="164" r="1.8"/>
-      <circle cx="560" cy="164" r="1.8"/><circle cx="640" cy="164" r="1.8"/>
-      <circle cx="720" cy="164" r="1.8"/><circle cx="800" cy="164" r="1.8"/>
-    </g>
     <circle class="blink-c" cx="657" cy="135" r="3.5" fill="#22d3ee" filter="url(#tightGlow)"/>
   </g>
 
@@ -207,10 +202,10 @@
   <!-- deck controls -->
   <rect x="248" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
   <rect x="260" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
-  <rect class="blink-a" x="422" y="292" width="30" height="8" rx="4" fill="#aebeff"/>
+  <rect class="blink-a" x="422" y="292" width="30" height="8" rx="4" fill="#22d3ee"/>
   <rect x="778" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
   <rect x="790" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
-  <rect class="blink-b" x="748" y="292" width="30" height="8" rx="4" fill="#3f6cff"/>
+  <rect class="blink-b" x="748" y="292" width="30" height="8" rx="4" fill="#d946ef"/>
   <g fill="#151a3c" stroke="#5455aa" stroke-width=".8">
     <rect x="468" y="288" width="19" height="11" rx="3"/><rect x="492" y="288" width="19" height="11" rx="3"/>
     <rect x="516" y="288" width="19" height="11" rx="3"/><rect x="665" y="288" width="19" height="11" rx="3"/>
@@ -218,7 +213,7 @@
   </g>
   <g fill="#7466da">
     <circle cx="477.5" cy="305" r="2"/><circle class="blink-c" cx="501.5" cy="305" r="2" fill="#22d3ee"/>
-    <circle cx="525.5" cy="305" r="2"/><circle cx="674.5" cy="305" r="2"/>
+    <circle cx="525.5" cy="305" r="2" fill="#f59e0b"/><circle cx="674.5" cy="305" r="2" fill="#f59e0b"/>
     <circle class="blink-b" cx="698.5" cy="305" r="2" fill="#d946ef"/><circle cx="722.5" cy="305" r="2"/>
   </g>
   <rect x="214" y="291" width="20" height="18" rx="4" fill="url(#perforation)"/>
