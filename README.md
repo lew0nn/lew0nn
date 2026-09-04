@@ -15,6 +15,7 @@
 <p>
   <a href="https://github.com/lew0nn"><img src="https://img.shields.io/badge/PROFILE-2A174F?style=for-the-badge&logo=github&logoColor=DDD1FF" alt="GitHub profile" /></a>
   <a href="https://open.spotify.com/user/31tkdf56o4ybejfgvodwd2jy6ahi"><img src="https://img.shields.io/badge/SPOTIFY-5436BB?style=for-the-badge&logo=spotify&logoColor=DDD1FF" alt="Spotify profile" /></a>
+  <a href="https://discord.com/users/lewonn"><img src="https://img.shields.io/badge/DISCORD-lewonn-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: lewonn" /></a>
 </p>
 
 </div>
@@ -56,10 +57,6 @@ I build audio software where signal processing, interface design, and controlled
 
 <a href="https://github.com/lew0nn/voidworm"><img width="49%" src="./assets/voidworm-card.svg" alt="Open the VOIDWORM repository" /></a>
 <a href="https://github.com/lew0nn/phoqer"><img width="49%" src="./assets/phoqer-card.svg" alt="Open the PHOQER repository" /></a>
-
-<br />
-
-<a href="https://github.com/lew0nn/voidworm/releases"><img src="https://img.shields.io/badge/VOIDWORM-DOWNLOAD%20RELEASE-4657DB?style=flat-square&labelColor=151641&logo=github&logoColor=D7DEFF" alt="Download VOIDWORM" /></a>
 
 </div>
 
