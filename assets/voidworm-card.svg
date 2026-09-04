@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="164" viewBox="0 0 560 164" role="img" aria-labelledby="title desc">
   <title id="title">VOIDWORM repository</title><desc id="desc">Released source-reactive industrial distortion plug-in for Windows.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151341"/><stop offset="1" stop-color="#080b1c"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7446df"/><stop offset="1" stop-color="#2850e8"/></linearGradient></defs>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1B0B28"/><stop offset="1" stop-color="#090711"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B5CF6"/><stop offset=".58" stop-color="#D946EF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
   <rect x="2" y="2" width="556" height="160" rx="16" fill="url(#bg)" stroke="url(#edge)" stroke-width="3"/>
-  <text x="26" y="39" fill="#9f8cff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">RELEASED</text>
-  <text x="26" y="75" fill="#dce3ff" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">VOIDWORM</text>
-  <text x="26" y="103" fill="#b9c5e8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Source-reactive industrial distortion.</text>
-  <text x="26" y="132" fill="#9fb2ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">VST3  /  STANDALONE  /  WINDOWS</text>
-  <path d="M503 72H527M518 63L527 72L518 81" fill="none" stroke="#3f6cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="26" y="39" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">RELEASED</text>
+  <text x="26" y="75" fill="#F5EDFF" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">VOIDWORM</text>
+  <text x="26" y="103" fill="#D9CFF2" font-family="Segoe UI, Arial, sans-serif" font-size="14">Source-reactive industrial distortion.</text>
+  <text x="26" y="132" fill="#C084FC" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">VST3  /  STANDALONE  /  WINDOWS</text>
+  <path d="M503 72H527M518 63L527 72L518 81" fill="none" stroke="#FF4FD8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

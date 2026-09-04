@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="164" viewBox="0 0 560 164" role="img" aria-labelledby="title desc">
   <title id="title">PHOQER repository</title><desc id="desc">An audio instrument currently in development.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17103e"/><stop offset="1" stop-color="#080b1c"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6b32d5"/><stop offset="1" stop-color="#315be6"/></linearGradient></defs>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071E26"/><stop offset="1" stop-color="#090711"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#2962FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
   <rect x="2" y="2" width="556" height="160" rx="16" fill="url(#bg)" stroke="url(#edge)" stroke-width="3"/>
-  <text x="26" y="39" fill="#aa91ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">IN DEVELOPMENT</text>
-  <text x="26" y="75" fill="#dce3ff" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">PHOQER</text>
-  <text x="26" y="103" fill="#b9c5e8" font-family="Segoe UI, Arial, sans-serif" font-size="14">An instrument currently taking shape.</text>
-  <text x="26" y="132" fill="#a7b5ff" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">AUDIO  /  INSTRUMENT  /  WIP</text>
-  <path d="M503 72H527M518 63L527 72L518 81" fill="none" stroke="#6b4dea" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="26" y="39" fill="#FFB020" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">IN DEVELOPMENT</text>
+  <text x="26" y="75" fill="#F5EDFF" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">PHOQER</text>
+  <text x="26" y="103" fill="#D9CFF2" font-family="Segoe UI, Arial, sans-serif" font-size="14">An instrument currently taking shape.</text>
+  <text x="26" y="132" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12">AUDIO  /  INSTRUMENT  /  WIP</text>
+  <path d="M503 72H527M518 63L527 72L518 81" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
