@@ -124,7 +124,7 @@
     </g>
     <circle cx="86" cy="115" r="2.5" fill="#070716" stroke="#7760d6"/>
     <circle cx="302" cy="224" r="2.5" fill="#070716" stroke="#7760d6"/>
-    <circle class="blink-c" cx="282" cy="151" r="3" fill="#22d3ee" filter="url(#tightGlow)"/>
+    <circle class="blink-c" cx="286" cy="128" r="3" fill="#22d3ee" filter="url(#tightGlow)"/>
   </g>
 
   <!-- right output analyser -->
@@ -169,7 +169,7 @@
     </g>
     <circle cx="898" cy="115" r="2.5" fill="#070716" stroke="#7760d6"/>
     <circle cx="1114" cy="224" r="2.5" fill="#070716" stroke="#7760d6"/>
-    <circle class="blink-b" cx="1094" cy="132" r="3" fill="#d946ef" filter="url(#tightGlow)"/>
+    <circle class="blink-b" cx="1097" cy="128" r="3" fill="#d946ef" filter="url(#tightGlow)"/>
   </g>
 
   <!-- central scope chassis -->
