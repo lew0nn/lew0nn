@@ -59,7 +59,7 @@ I build audio software where signal processing, interface design, and controlled
 
 <br />
 
-<a href="https://github.com/lew0nn/voidworm/releases"><img src="https://img.shields.io/badge/VOIDWORM-DOWNLOAD%20RELEASE-4657DB?style=flat-square&labelColor=151641&logo=github&logoColor=D7DEFF" alt="Download VOIDWORM" /></a>
+<a href="https://github.com/lew0nn/voidworm/releases"><img src="https://img.shields.io/badge/VOIDWORM-DOWNLOADS-4657DB?style=flat-square&labelColor=151641&logo=github&logoColor=D7DEFF" alt="VOIDWORM downloads" /></a>
 
 </div>
 
