@@ -8,8 +8,8 @@
 
 <p>
   <a href="https://github.com/lew0nn"><img src="https://komarev.com/ghpvc/?username=lew0nn&label=PROFILE%20VIEWS&color=7C3AED&style=flat-square" alt="Profile views" /></a>
-  <a href="https://github.com/lew0nn?tab=followers"><img src="https://img.shields.io/github/followers/lew0nn?label=FOLLOWERS&style=flat-square&color=00CFE8&labelColor=180D23&logo=github&logoColor=EAFDFF" alt="Followers" /></a>
-  <a href="#projects"><img src="https://img.shields.io/badge/FOCUS-AUDIO%20DSP-2962FF?style=flat-square&labelColor=180D23" alt="Focus — Audio DSP" /></a>
+  <a href="https://github.com/lew0nn?tab=followers"><img src="https://img.shields.io/github/followers/lew0nn?label=FOLLOWERS&style=flat-square&color=00CFE8&labelColor=555&logo=github&logoColor=EAFDFF" alt="Followers" /></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/FOCUS-AUDIO%20DSP-2962FF?style=flat-square&labelColor=555" alt="Focus — Audio DSP" /></a>
 </p>
 
 <p>
@@ -67,9 +67,9 @@ I build audio software where signal processing, interface design, and controlled
 <br /><br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lew0nn/lew0nn/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lew0nn/lew0nn/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/lew0nn/lew0nn/output/github-contribution-grid-snake-dark.svg" alt="lew0nn contribution snake" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lew0nn/lew0nn/output/github-contribution-grid-snake-dark.svg?v=6f767aa" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lew0nn/lew0nn/output/github-contribution-grid-snake.svg?v=6f767aa" />
+  <img width="100%" src="https://raw.githubusercontent.com/lew0nn/lew0nn/output/github-contribution-grid-snake-dark.svg?v=6f767aa" alt="lew0nn contribution snake" />
 </picture>
 
 </div>
