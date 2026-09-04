@@ -87,7 +87,7 @@ I build audio software where signal processing, interface design, and controlled
 <br /><br />
 
 <details>
-<summary><sub>...</sub></summary>
+<summary><sub>ㅤ</sub></summary>
 
 <br />
 
