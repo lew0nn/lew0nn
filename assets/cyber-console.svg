@@ -136,12 +136,30 @@
       <rect x="899" y="115" width="213" height="110" fill="url(#fineGrid)"/>
       <path d="M916 203H1098M916 181H1098M916 159H1098M916 137H1098" stroke="#665cc4" stroke-opacity=".14"/>
       <g fill="#3f6cff">
-        <rect x="930" y="172" width="14" height="32" rx="7" opacity=".55"/>
-        <rect class="blink-b" x="958" y="156" width="14" height="48" rx="7"/>
-        <rect x="986" y="146" width="14" height="58" rx="7" opacity=".68"/>
-        <rect class="blink-a" x="1014" y="162" width="14" height="42" rx="7" fill="#6d55ed"/>
-        <rect x="1042" y="179" width="14" height="25" rx="7" opacity=".5"/>
-        <rect x="1070" y="151" width="14" height="53" rx="7" opacity=".72"/>
+        <rect x="930" y="190" width="14" height="14" rx="7" opacity=".72">
+          <animate attributeName="y" values="190;172;184;190" dur="2.4s" begin="-.4s" repeatCount="indefinite"/>
+          <animate attributeName="height" values="14;32;20;14" dur="2.4s" begin="-.4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="958" y="162" width="14" height="42" rx="7">
+          <animate attributeName="y" values="162;186;156;162" dur="2.9s" begin="-1.1s" repeatCount="indefinite"/>
+          <animate attributeName="height" values="42;18;48;42" dur="2.9s" begin="-1.1s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="986" y="168" width="14" height="36" rx="7" opacity=".82">
+          <animate attributeName="y" values="168;154;181;168" dur="2.1s" begin="-.7s" repeatCount="indefinite"/>
+          <animate attributeName="height" values="36;50;23;36" dur="2.1s" begin="-.7s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="1014" y="189" width="14" height="15" rx="7" fill="#6d55ed">
+          <animate attributeName="y" values="189;175;162;189" dur="3.2s" begin="-1.8s" repeatCount="indefinite"/>
+          <animate attributeName="height" values="15;29;42;15" dur="3.2s" begin="-1.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="1042" y="182" width="14" height="22" rx="7" opacity=".68">
+          <animate attributeName="y" values="182;194;179;182" dur="2.7s" begin="-.3s" repeatCount="indefinite"/>
+          <animate attributeName="height" values="22;10;25;22" dur="2.7s" begin="-.3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="1070" y="180" width="14" height="24" rx="7" opacity=".86">
+          <animate attributeName="y" values="180;151;171;180" dur="3s" begin="-1.4s" repeatCount="indefinite"/>
+          <animate attributeName="height" values="24;53;33;24" dur="3s" begin="-1.4s" repeatCount="indefinite"/>
+        </rect>
       </g>
       <rect x="899" y="115" width="213" height="110" fill="url(#screenGlass)" opacity=".3"/>
     </g>
@@ -179,7 +197,6 @@
     <path d="M342 218H486" stroke="#d946ef" stroke-width="2" stroke-linecap="round" opacity=".62"/>
     <path d="M714 218H858" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" opacity=".68"/>
     <path d="M321 62L450 62L348 246H321Z" fill="url(#screenGlass)" opacity=".25"/>
-    <circle class="blink-c" cx="657" cy="135" r="3.5" fill="#22d3ee" filter="url(#tightGlow)"/>
   </g>
 
   <!-- central readouts -->
@@ -204,10 +221,10 @@
   <!-- deck controls -->
   <rect x="248" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
   <rect x="260" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
-  <rect class="blink-a" x="432" y="292" width="24" height="8" rx="4" fill="#22d3ee"/>
+  <rect class="blink-a" x="432" y="288" width="24" height="11" rx="4" fill="#22d3ee"/>
   <rect x="778" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
   <rect x="790" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
-  <rect class="blink-b" x="744" y="292" width="24" height="8" rx="4" fill="#d946ef"/>
+  <rect class="blink-b" x="744" y="288" width="24" height="11" rx="4" fill="#d946ef"/>
   <g fill="#151a3c" stroke="#5455aa" stroke-width=".8">
     <rect x="460" y="288" width="14" height="11" rx="3"/><rect x="477" y="288" width="14" height="11" rx="3"/>
     <rect x="494" y="288" width="14" height="11" rx="3"/><rect x="692" y="288" width="14" height="11" rx="3"/>
