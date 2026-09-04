@@ -40,7 +40,7 @@ I build audio software where signal processing, interface design, and controlled
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,cmake,visualstudio,git,githubactions,windows,powershell,ableton&amp;theme=dark" alt="C++, CMake, Visual Studio, Git, GitHub Actions, Windows, PowerShell, and Ableton Live" />
+<img src="https://skillicons.dev/icons?i=cpp,cmake,visualstudio,git,githubactions,windows,arch,powershell,ableton&amp;theme=dark" alt="C++, CMake, Visual Studio, Git, GitHub Actions, Windows, Arch Linux, PowerShell, and Ableton Live" />
 
 </div>
 
