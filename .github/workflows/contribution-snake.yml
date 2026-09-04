@@ -23,6 +23,14 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+          player_style: conservative
+          hide_month_labels: "false"
+
       - name: Generate contribution SVGs
         uses: Platane/snk@v3
         with:

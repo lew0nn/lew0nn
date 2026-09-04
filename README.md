@@ -15,6 +15,7 @@
 <p>
   <a href="https://github.com/lew0nn"><img src="https://img.shields.io/badge/PROFILE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
   <a href="https://open.spotify.com/user/31tkdf56o4ybejfgvodwd2jy6ahi"><img src="https://img.shields.io/badge/SPOTIFY-00C853?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify profile" /></a>
+  <a href="https://soundcloud.com/lewonn"><img src="https://img.shields.io/badge/SOUNDCLOUD-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" alt="SoundCloud profile" /></a>
   <a href="https://discord.com/users/lewonn"><img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
