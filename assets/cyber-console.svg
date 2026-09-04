@@ -1,164 +1,242 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">lew0nn audio console</title>
-  <desc id="desc">An animated dark audio workstation with violet signal displays, magenta harmonics, cyan meters, and restrained amber status lights.</desc>
+  <title id="title">lew0nn signal control room</title>
+  <desc id="desc">A detailed animated audio workstation with three signal displays, violet and blue hardware, and a seated operator silhouette.</desc>
+
   <defs>
-    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#15101d"/>
-      <stop offset="0.55" stop-color="#0b0911"/>
-      <stop offset="1" stop-color="#050408"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1c0b36"/>
+      <stop offset=".52" stop-color="#10163a"/>
+      <stop offset="1" stop-color="#08152f"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#1b1524"/>
-      <stop offset="1" stop-color="#0c0911"/>
-    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="44%" r="50%">
+      <stop stop-color="#7135d1" stop-opacity=".28"/>
+      <stop offset=".62" stop-color="#334fe0" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#060817" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#120d1b"/>
-      <stop offset="1" stop-color="#08070d"/>
+      <stop stop-color="#241044"/>
+      <stop offset="1" stop-color="#0a1638"/>
     </linearGradient>
-    <linearGradient id="violetEdge" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#5b2aa8"/>
-      <stop offset="0.48" stop-color="#a855f7"/>
-      <stop offset="1" stop-color="#6030b5"/>
+    <linearGradient id="screenGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".08"/>
+      <stop offset=".34" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#6b5cff" stop-opacity=".03"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".055"/>
     </linearGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#8b5cf6"/>
-      <stop offset="0.45" stop-color="#e879f9"/>
-      <stop offset="0.76" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#22d3ee"/>
+      <stop stop-color="#7446df"/>
+      <stop offset=".48" stop-color="#d5dcff"/>
+      <stop offset=".78" stop-color="#8b7cff"/>
+      <stop offset="1" stop-color="#3f6cff"/>
     </linearGradient>
-    <radialGradient id="core" cx="50%" cy="45%" r="62%">
-      <stop stop-color="#f0abfc"/>
-      <stop offset="0.24" stop-color="#a855f7"/>
-      <stop offset="0.58" stop-color="#4c1d95"/>
-      <stop offset="1" stop-color="#09070e"/>
-    </radialGradient>
-    <radialGradient id="violetAura" cx="50%" cy="42%" r="58%">
-      <stop stop-color="#a855f7" stop-opacity="0.2"/>
-      <stop offset="0.55" stop-color="#7c3aed" stop-opacity="0.07"/>
-      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="microGrid" width="32" height="24" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V24" fill="none" stroke="#a78bfa" stroke-opacity="0.075" stroke-width="1"/>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#7843dc"/>
+      <stop offset="1" stop-color="#315ee6"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#17123b"/>
+      <stop offset=".5" stop-color="#090b22"/>
+      <stop offset="1" stop-color="#050717"/>
+    </linearGradient>
+    <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#0c1935"/>
+      <stop offset="1" stop-color="#050b1c"/>
+    </linearGradient>
+    <pattern id="grid" width="52" height="24" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V24" fill="none" stroke="#5c48bd" stroke-opacity=".2"/>
     </pattern>
-    <pattern id="perforation" width="14" height="14" patternUnits="userSpaceOnUse">
-      <circle cx="7" cy="7" r="1.25" fill="#c4b5fd" opacity="0.18"/>
+    <pattern id="fineGrid" width="20" height="16" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V16" fill="none" stroke="#9b8cff" stroke-opacity=".055"/>
     </pattern>
-    <clipPath id="scopeClip"><path d="M301 76H899L914 91V225L899 240H301L286 225V91Z"/></clipPath>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <pattern id="perforation" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="1.2" fill="#8797ff" opacity=".18"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2.2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="tightGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="panelShadow" x="-25%" y="-25%" width="150%" height="165%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#02030b" flood-opacity=".68"/>
+    </filter>
+    <clipPath id="mainScreen"><rect x="321" y="62" width="558" height="184" rx="16"/></clipPath>
+    <clipPath id="leftScreen"><rect x="88" y="115" width="213" height="110" rx="12"/></clipPath>
+    <clipPath id="rightScreen"><rect x="899" y="115" width="213" height="110" rx="12"/></clipPath>
   </defs>
 
   <style>
-    .signal-run { stroke-dasharray: 28 10; animation: signalRun 5.5s linear infinite; }
-    .scan { animation: scan 5.2s ease-in-out infinite; }
-    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: 600px 268px; }
-    .meter-a { animation: meterA 2.4s ease-in-out infinite; }
-    .meter-b { animation: meterB 2.9s .35s ease-in-out infinite; }
-    .status { animation: status 2.2s ease-in-out infinite; }
-    @keyframes signalRun { to { stroke-dashoffset: -152; } }
-    @keyframes scan { 0%,100% { transform: translateX(-72px); opacity: 0; } 18%,82% { opacity: .18; } 50% { transform: translateX(640px); } }
-    @keyframes pulse { 0%,100% { transform: scale(.94); opacity: .78; } 50% { transform: scale(1.06); opacity: 1; } }
-    @keyframes meterA { 0%,100% { opacity: .48; } 45% { opacity: 1; } }
-    @keyframes meterB { 0%,100% { opacity: 1; } 55% { opacity: .4; } }
-    @keyframes status { 0%,100% { opacity: .4; } 50% { opacity: 1; } }
+    .trace { stroke-dasharray: 20 8; animation: trace 5s linear infinite; }
+    .micro-trace { stroke-dasharray: 8 5; animation: microTrace 7s linear infinite; }
+    .scan { animation: scan 4.8s ease-in-out infinite; }
+    .blink-a { animation: blink 2.6s ease-in-out infinite; }
+    .blink-b { animation: blink 3.2s 1.1s ease-in-out infinite; }
+    .blink-c { animation: blink 2.1s .6s ease-in-out infinite; }
+    .float-left { animation: float 4.2s ease-in-out infinite; transform-origin: 205px 170px; }
+    .float-right { animation: float 4.2s -1.7s ease-in-out infinite; transform-origin: 995px 170px; }
+    @keyframes trace { to { stroke-dashoffset: -112; } }
+    @keyframes microTrace { to { stroke-dashoffset: 78; } }
+    @keyframes scan { 0%,100% { transform: translateY(-62px); opacity: 0; } 18%,82% { opacity: .25; } 50% { transform: translateY(182px); } }
+    @keyframes blink { 0%,100% { opacity: .38; } 50% { opacity: 1; } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
 
-  <rect width="1200" height="360" rx="20" fill="url(#shell)"/>
-  <rect width="1200" height="360" rx="20" fill="url(#violetAura)"/>
-  <path d="M20 40H1180M20 320H1180" stroke="#6d28d9" stroke-opacity="0.24"/>
-  <path d="M60 0L0 60M1140 0L1200 60M60 360L0 300M1140 360L1200 300" stroke="#a855f7" stroke-opacity="0.16"/>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#halo)"/>
 
-  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <text x="42" y="27" fill="#ddd6fe" font-size="12" font-weight="700" letter-spacing="2.8">LEW0NN</text>
-    <text x="127" y="27" fill="#8b7ba4" font-size="10" letter-spacing="1.8">AUDIO / DSP</text>
-    <circle cx="1058" cy="23" r="4" fill="#22d3ee" filter="url(#softGlow)"/>
-    <circle class="status" cx="1075" cy="23" r="4" fill="#f59e0b"/>
-    <text x="1091" y="27" fill="#9d8fac" font-size="10" letter-spacing="1.8">SIGNAL LIVE</text>
+  <!-- architectural background -->
+  <path d="M0 60H1200M0 91H1200M0 272H1200" stroke="#7862d8" stroke-opacity=".08"/>
+  <path d="M62 0V286M162 0V286M1040 0V286M1138 0V286" stroke="#785be3" stroke-opacity=".07"/>
+  <path d="M18 42H277M923 42H1182" stroke="#9a6aff" stroke-opacity=".18" stroke-width="2"/>
+  <g fill="#9b8cff" opacity=".24">
+    <circle cx="32" cy="58" r="2"/><circle cx="1168" cy="58" r="2"/>
+    <circle cx="32" cy="270" r="2"/><circle cx="1168" cy="270" r="2"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7.5" letter-spacing="1.8" fill="#8071a3" opacity=".64">
+    <text x="26" y="29">LEW0NN / AUDIO SYSTEMS</text>
+    <text x="1174" y="29" text-anchor="end">DSP ROOM / 01</text>
   </g>
 
-  <path d="M48 86L66 68H242L258 84V266L242 282H66L48 264Z" fill="url(#panel)" stroke="#38284a" stroke-width="2"/>
-  <path d="M942 84L958 68H1134L1152 86V264L1134 282H958L942 266Z" fill="url(#panel)" stroke="#38284a" stroke-width="2"/>
-  <path d="M63 100H243V249L230 264H63Z" fill="#09070e" stroke="#5b2aa8" stroke-opacity="0.55"/>
-  <path d="M957 100H1137V264H970L957 249Z" fill="#09070e" stroke="#5b2aa8" stroke-opacity="0.55"/>
+  <!-- floor and perspective -->
+  <path d="M0 286H1200V360H0Z" fill="#060817"/>
+  <path d="M84 360L395 278H805L1116 360" fill="url(#grid)"/>
+  <path d="M600 279L600 360M487 279L418 360M713 279L782 360M395 279L250 360M805 279L950 360" stroke="#5570df" stroke-opacity=".1"/>
+  <path d="M86 340H1114M165 320H1035M267 300H933" stroke="#7457d7" stroke-opacity=".085"/>
 
-  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="2">
-    <text x="78" y="122" fill="#9d8fac">INPUT</text>
-    <text x="1122" y="122" text-anchor="end" fill="#9d8fac">OUTPUT</text>
-  </g>
-
-  <g transform="translate(80 138)">
-    <circle cx="34" cy="34" r="27" fill="#0d0912" stroke="#4c3560" stroke-width="2"/>
-    <circle cx="34" cy="34" r="20" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="82 44" transform="rotate(140 34 34)"/>
-    <path d="M34 34L25 17" stroke="#e879f9" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="105" cy="34" r="27" fill="#0d0912" stroke="#4c3560" stroke-width="2"/>
-    <circle cx="105" cy="34" r="20" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="66 60" transform="rotate(140 105 34)"/>
-    <path d="M105 34L118 22" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
-    <text x="34" y="78" text-anchor="middle" fill="#766a83" font-family="ui-monospace, Consolas, monospace" font-size="8">DRIVE</text>
-    <text x="105" y="78" text-anchor="middle" fill="#766a83" font-family="ui-monospace, Consolas, monospace" font-size="8">MIX</text>
-  </g>
-  <rect x="78" y="231" width="150" height="18" rx="4" fill="url(#perforation)"/>
-
-  <g transform="translate(974 139)">
-    <rect x="0" y="0" width="146" height="78" rx="8" fill="#0c0911" stroke="#352641"/>
-    <g fill="#8b5cf6">
-      <rect class="meter-a" x="13" y="34" width="10" height="31" rx="5"/>
-      <rect class="meter-b" x="34" y="17" width="10" height="48" rx="5" fill="#a855f7"/>
-      <rect class="meter-a" x="55" y="27" width="10" height="38" rx="5" fill="#c084fc"/>
-      <rect class="meter-b" x="76" y="9" width="10" height="56" rx="5" fill="#22d3ee"/>
-      <rect class="meter-a" x="97" y="23" width="10" height="42" rx="5" fill="#a855f7"/>
-      <rect class="meter-b" x="118" y="38" width="10" height="27" rx="5"/>
+  <!-- left input scope -->
+  <g class="float-left" filter="url(#panelShadow)">
+    <path d="M71 116L88 99H300L317 116V224L300 241H88L71 224Z" fill="url(#bezel)" stroke="#6841d0" stroke-width="3"/>
+    <path d="M80 119L94 106H294L308 119V218L294 232H94L80 218Z" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
+    <rect x="88" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
+    <g clip-path="url(#leftScreen)">
+      <rect x="88" y="115" width="213" height="110" fill="url(#fineGrid)"/>
+      <path d="M96 178H293" stroke="#5d57b7" stroke-opacity=".28"/>
+      <path d="M108 175C126 175 129 147 146 147S165 194 182 194S200 157 217 157S232 177 252 177H281" fill="none" stroke="#241850" stroke-width="12" stroke-linecap="round" opacity=".65"/>
+      <path class="micro-trace" d="M108 175C126 175 129 147 146 147S165 194 182 194S200 157 217 157S232 177 252 177H281" fill="none" stroke="url(#signal)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
+      <path d="M90 116L175 116L115 225H90Z" fill="url(#screenGlass)" opacity=".38"/>
     </g>
-    <path d="M6 69H140" stroke="#4c3560"/>
-  </g>
-  <g fill="#22182d" stroke="#4c3560">
-    <rect x="974" y="230" width="42" height="19" rx="4"/>
-    <rect x="1026" y="230" width="42" height="19" rx="4"/>
-    <rect x="1078" y="230" width="42" height="19" rx="4"/>
-  </g>
-  <circle cx="988" cy="239.5" r="3" fill="#22d3ee"/>
-  <circle cx="1040" cy="239.5" r="3" fill="#a855f7"/>
-  <circle cx="1092" cy="239.5" r="3" fill="#f59e0b"/>
-
-  <path d="M292 45H908L936 73V259L909 286H291L264 259V73Z" fill="#08060c" stroke="url(#violetEdge)" stroke-width="3"/>
-  <path d="M304 57H896L923 84V248L897 274H303L277 248V84Z" fill="url(#panel)" stroke="#2f223b" stroke-width="2"/>
-  <path d="M301 76H899L914 91V225L899 240H301L286 225V91Z" fill="url(#screen)" stroke="#6d28d9" stroke-opacity="0.75" stroke-width="2"/>
-
-  <g clip-path="url(#scopeClip)">
-    <rect x="286" y="76" width="628" height="164" fill="url(#microGrid)"/>
-    <rect class="scan" x="286" y="76" width="72" height="164" fill="#a855f7"/>
-    <path d="M304 171C321 171 328 157 341 157S358 188 372 188S389 129 404 129S420 208 436 208S451 142 468 142S483 180 499 180S516 160 534 160S551 171 568 171S585 153 602 153S619 184 636 184S653 116 671 116S689 204 706 204S723 146 741 146S759 171 777 171S795 155 813 155S830 171 850 171H897" fill="none" stroke="#3b244b" stroke-width="14" stroke-linecap="round" opacity="0.7"/>
-    <path d="M304 171C321 171 328 157 341 157S358 188 372 188S389 129 404 129S420 208 436 208S451 142 468 142S483 180 499 180S516 160 534 160S551 171 568 171S585 153 602 153S619 184 636 184S653 116 671 116S689 204 706 204S723 146 741 146S759 171 777 171S795 155 813 155S830 171 850 171H897" fill="none" stroke="url(#signal)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
-    <path class="signal-run" pathLength="100" d="M304 171C321 171 328 157 341 157S358 188 372 188S389 129 404 129S420 208 436 208S451 142 468 142S483 180 499 180S516 160 534 160S551 171 568 171S585 153 602 153S619 184 636 184S653 116 671 116S689 204 706 204S723 146 741 146S759 171 777 171S795 155 813 155S830 171 850 171H897" fill="none" stroke="#f5d0fe" stroke-width="1.6" stroke-linecap="round" opacity="0.75"/>
+    <rect x="110" y="132" width="72" height="5" rx="2.5" fill="#aebeff"/>
+    <rect class="blink-a" x="220" y="132" width="57" height="5" rx="2.5" fill="#3f6cff"/>
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7.5" letter-spacing="1.4">
+      <text x="109" y="151" fill="#9da9eb">INPUT / A</text>
+      <text x="281" y="214" text-anchor="end" fill="#7182ca">-12  0  +12</text>
+    </g>
+    <circle cx="86" cy="115" r="2.5" fill="#070716" stroke="#7760d6"/>
+    <circle cx="302" cy="224" r="2.5" fill="#070716" stroke="#7760d6"/>
+    <circle class="blink-c" cx="282" cy="151" r="3" fill="#22d3ee" filter="url(#tightGlow)"/>
   </g>
 
+  <!-- right output analyser -->
+  <g class="float-right" filter="url(#panelShadow)">
+    <path d="M883 116L900 99H1112L1129 116V224L1112 241H900L883 224Z" fill="url(#bezel)" stroke="#514bd2" stroke-width="3"/>
+    <path d="M892 119L906 106H1106L1120 119V218L1106 232H906L892 218Z" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
+    <rect x="899" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
+    <g clip-path="url(#rightScreen)">
+      <rect x="899" y="115" width="213" height="110" fill="url(#fineGrid)"/>
+      <path d="M916 203H1098M916 181H1098M916 159H1098M916 137H1098" stroke="#665cc4" stroke-opacity=".14"/>
+      <g fill="#3f6cff">
+        <rect x="930" y="161" width="14" height="42" rx="7" opacity=".55"/>
+        <rect class="blink-b" x="958" y="143" width="14" height="60" rx="7"/>
+        <rect x="986" y="128" width="14" height="75" rx="7" opacity=".68"/>
+        <rect class="blink-a" x="1014" y="151" width="14" height="52" rx="7" fill="#6d55ed"/>
+        <rect x="1042" y="171" width="14" height="32" rx="7" opacity=".5"/>
+        <rect x="1070" y="137" width="14" height="66" rx="7" opacity=".72"/>
+      </g>
+      <rect x="899" y="115" width="213" height="110" fill="url(#screenGlass)" opacity=".3"/>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="7.5" letter-spacing="1.4">
+      <text x="919" y="132" fill="#9da9eb">OUTPUT / FFT</text>
+      <text x="1094" y="214" text-anchor="end" fill="#7182ca">60  250  1K  4K  16K</text>
+    </g>
+    <circle cx="898" cy="115" r="2.5" fill="#070716" stroke="#7760d6"/>
+    <circle cx="1114" cy="224" r="2.5" fill="#070716" stroke="#7760d6"/>
+    <circle class="blink-b" cx="1094" cy="132" r="3" fill="#d946ef" filter="url(#tightGlow)"/>
+  </g>
+
+  <!-- central scope chassis -->
+  <g filter="url(#panelShadow)">
+    <rect x="298" y="35" width="604" height="236" rx="24" fill="#07091c" stroke="url(#frame)" stroke-width="4"/>
+    <rect x="306" y="43" width="588" height="220" rx="19" fill="url(#bezel)" stroke="#211d58" stroke-width="2"/>
+    <path d="M329 47H455M745 47H871" stroke="#8f6cff" stroke-opacity=".52" stroke-width="2" stroke-linecap="round"/>
+    <path d="M312 84V214M888 84V214" stroke="#4461d9" stroke-opacity=".34"/>
+    <g fill="#050615" stroke="#6655bd" stroke-width="1">
+      <circle cx="320" cy="58" r="3"/><circle cx="880" cy="58" r="3"/>
+      <circle cx="320" cy="248" r="3"/><circle cx="880" cy="248" r="3"/>
+    </g>
+    <rect x="319" y="60" width="562" height="188" rx="18" fill="url(#screen)" stroke="#3d3d9a" stroke-width="2"/>
+  </g>
+
+  <!-- central scope content -->
+  <g clip-path="url(#mainScreen)">
+    <rect x="321" y="62" width="558" height="184" fill="url(#fineGrid)"/>
+    <path d="M321 102H879M321 146H879M321 190H879M400 62V246M480 62V246M560 62V246M640 62V246M720 62V246M800 62V246" stroke="#5c48bd" stroke-opacity=".16"/>
+    <path d="M321 164H879" stroke="#9687ea" stroke-opacity=".18" stroke-dasharray="3 7"/>
+    <rect class="scan" x="321" y="62" width="558" height="48" fill="#3f6cff" opacity=".16"/>
+    <path d="M342 164C362 164 369 137 384 137S404 190 421 190S441 118 458 118S477 202 496 202S518 145 538 145S558 176 578 176S598 152 618 152S638 128 657 128S677 190 696 190S716 139 736 139S755 164 775 164H858" fill="none" stroke="#21164a" stroke-width="15" stroke-linecap="round" opacity=".6"/>
+    <path class="trace" pathLength="100" d="M342 164C362 164 369 137 384 137S404 190 421 190S441 118 458 118S477 202 496 202S518 145 538 145S558 176 578 176S598 152 618 152S638 128 657 128S677 190 696 190S716 139 736 139S755 164 775 164H858" fill="none" stroke="url(#signal)" stroke-width="5" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M342 218H486M714 218H858" stroke="#8fa8ff" stroke-width="2" stroke-linecap="round" opacity=".72"/>
+    <path d="M342 225H430M770 225H858" stroke="#3f6cff" stroke-width="1" stroke-linecap="round" opacity=".5" stroke-dasharray="5 4"/>
+    <path d="M321 62L450 62L348 246H321Z" fill="url(#screenGlass)" opacity=".25"/>
+    <g fill="#6e62b3" opacity=".52">
+      <circle cx="400" cy="164" r="1.8"/><circle cx="480" cy="164" r="1.8"/>
+      <circle cx="560" cy="164" r="1.8"/><circle cx="640" cy="164" r="1.8"/>
+      <circle cx="720" cy="164" r="1.8"/><circle cx="800" cy="164" r="1.8"/>
+    </g>
+    <circle class="blink-c" cx="657" cy="128" r="3.5" fill="#22d3ee" filter="url(#tightGlow)"/>
+  </g>
+
+  <!-- central readouts -->
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <text x="307" y="99" fill="#c4b5fd" font-size="10" letter-spacing="2.3">REAL-TIME SIGNAL</text>
-    <text x="893" y="99" text-anchor="end" fill="#8b7ba4" font-size="9">48 kHz / 24-bit</text>
-    <text x="307" y="225" fill="#766a83" font-size="8" letter-spacing="1.4">IN</text>
-    <text x="893" y="225" text-anchor="end" fill="#766a83" font-size="8" letter-spacing="1.4">OUT</text>
+    <text x="348" y="88" fill="#b9c5ff" font-size="11" letter-spacing="2.4">SIGNAL / CONTROL</text>
+    <text x="852" y="88" text-anchor="end" fill="#d5dcff" font-size="11">48 kHz</text>
+    <text x="348" y="111" fill="#746db1" font-size="7.5" letter-spacing="1.6">CH 01 / LIVE INPUT</text>
+    <text x="852" y="111" text-anchor="end" fill="#746db1" font-size="7.5" letter-spacing="1.6">SYNC / LOCKED</text>
+    <text x="348" y="239" fill="#6976bb" font-size="7">-24</text>
+    <text x="852" y="239" text-anchor="end" fill="#6976bb" font-size="7">+6 dB</text>
   </g>
+  <circle class="blink-a" cx="836" cy="108" r="3" fill="#22d3ee" filter="url(#tightGlow)"/>
+  <circle class="blink-b" cx="847" cy="108" r="3" fill="#f59e0b"/>
 
-  <g class="pulse">
-    <circle cx="600" cy="267" r="30" fill="#08060c" stroke="#6d28d9" stroke-width="2"/>
-    <circle cx="600" cy="267" r="21" fill="url(#core)" filter="url(#softGlow)"/>
-    <circle cx="600" cy="267" r="7" fill="#f5d0fe"/>
+  <!-- monitor neck and control deck -->
+  <path d="M566 271H634L650 291H550Z" fill="#080b1c" stroke="#5c48bd" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M574 273H626L632 281H568Z" fill="#223269" opacity=".52"/>
+  <rect x="190" y="276" width="820" height="48" rx="24" fill="url(#deck)" stroke="#3659d8" stroke-width="3"/>
+  <rect x="202" y="284" width="796" height="31" rx="15.5" fill="none" stroke="#3c3c87" stroke-width="1" opacity=".68"/>
+  <path d="M234 300H966" stroke="#203060" stroke-width="1"/>
+
+  <!-- deck controls -->
+  <rect x="248" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
+  <rect x="260" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
+  <rect class="blink-a" x="422" y="292" width="30" height="8" rx="4" fill="#aebeff"/>
+  <rect x="778" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
+  <rect x="790" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
+  <rect class="blink-b" x="748" y="292" width="30" height="8" rx="4" fill="#3f6cff"/>
+  <g fill="#151a3c" stroke="#5455aa" stroke-width=".8">
+    <rect x="468" y="288" width="19" height="11" rx="3"/><rect x="492" y="288" width="19" height="11" rx="3"/>
+    <rect x="516" y="288" width="19" height="11" rx="3"/><rect x="665" y="288" width="19" height="11" rx="3"/>
+    <rect x="689" y="288" width="19" height="11" rx="3"/><rect x="713" y="288" width="19" height="11" rx="3"/>
   </g>
-
-  <path d="M178 302L198 286H1002L1022 302L1004 331H196Z" fill="#09070d" stroke="#4c3560" stroke-width="2"/>
-  <path d="M217 313H453M747 313H983" stroke="#2f223b" stroke-width="7" stroke-linecap="round"/>
-  <path d="M217 313H351" stroke="#8b5cf6" stroke-width="7" stroke-linecap="round"/>
-  <path d="M747 313H846" stroke="#22d3ee" stroke-width="7" stroke-linecap="round"/>
-  <g fill="#f59e0b">
-    <circle cx="473" cy="313" r="3"/><circle cx="486" cy="313" r="3" opacity=".45"/><circle cx="714" cy="313" r="3" opacity=".45"/><circle cx="727" cy="313" r="3"/>
+  <g fill="#7466da">
+    <circle cx="477.5" cy="305" r="2"/><circle class="blink-c" cx="501.5" cy="305" r="2" fill="#22d3ee"/>
+    <circle cx="525.5" cy="305" r="2"/><circle cx="674.5" cy="305" r="2"/>
+    <circle class="blink-b" cx="698.5" cy="305" r="2" fill="#d946ef"/><circle cx="722.5" cy="305" r="2"/>
   </g>
+  <rect x="214" y="291" width="20" height="18" rx="4" fill="url(#perforation)"/>
+  <rect x="966" y="291" width="20" height="18" rx="4" fill="url(#perforation)"/>
 
-  <rect x="1.5" y="1.5" width="1197" height="357" rx="18.5" fill="none" stroke="#4c3560" stroke-width="3"/>
-  <path d="M23 2H248M952 2H1177M23 358H248M952 358H1177" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- operator silhouette -->
+  <ellipse cx="600" cy="301" rx="88" ry="24" fill="#05030a" opacity=".94"/>
+  <circle cx="600" cy="260" r="38" fill="#050711" stroke="#28286b" stroke-width="3"/>
+  <path d="M574 249C580 236 589 229 600 229S620 236 626 249" fill="none" stroke="#6654bc" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M510 350C516 304 548 282 600 282S684 304 690 350Z" fill="#050711" stroke="#28286b" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M522 340C536 304 562 291 600 291S664 304 678 340" fill="none" stroke="#4a3e93" stroke-opacity=".34" stroke-width="2"/>
+  <path d="M600 296V338" stroke="#3f5bd4" stroke-width="2" stroke-linecap="round" opacity=".78"/>
+  <path d="M541 325L518 343M659 325L682 343" stroke="#172450" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- outer trim -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="16.5" fill="none" stroke="url(#frame)" stroke-width="3"/>
+  <path d="M22 2H245M955 2H1178M22 358H245M955 358H1178" stroke="#8c63ef" stroke-width="2" stroke-linecap="round" opacity=".75"/>
 </svg>

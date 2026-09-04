@@ -62,18 +62,6 @@ I build audio software where signal processing, interface design, and controlled
 
 <br />
 
-## Recent rotation
-
-<div align="center">
-
-<a href="https://open.spotify.com/user/31tkdf56o4ybejfgvodwd2jy6ahi">
-  <img width="720" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31tkdf56o4ybejfgvodwd2jy6ahi&amp;count=5&amp;width=720&amp;bg_color=09112B&amp;text_color=DCE5FF&amp;artist_color=A8BAFF&amp;meta_color=8295CE&amp;accent_color=3862E7&amp;logo_color=4E51D0&amp;radius=14&amp;profile=off&amp;unique=1" alt="Five recently played tracks on Spotify" />
-</a>
-
-</div>
-
-<br />
-
 ## GitHub
 
 <div align="center">
@@ -85,12 +73,20 @@ I build audio software where signal processing, interface design, and controlled
 
 <br />
 
+## Listening
+
 <div align="center">
 
-<img width="468" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Pac-Man chasing dots" />
+<sub>building things that react, distort, and stay playable</sub>
 
 <br /><br />
 
-<sub>building things that react, distort, and stay playable</sub>
+<a href="https://open.spotify.com/user/31tkdf56o4ybejfgvodwd2jy6ahi">
+  <img width="720" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31tkdf56o4ybejfgvodwd2jy6ahi&amp;count=5&amp;width=720&amp;bg_color=09112B&amp;text_color=DCE5FF&amp;artist_color=A8BAFF&amp;meta_color=8295CE&amp;accent_color=3862E7&amp;logo_color=4E51D0&amp;radius=14&amp;profile=off&amp;unique=1" alt="Five recently played tracks on Spotify" />
+</a>
+
+<br /><br />
+
+<img width="468" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Pac-Man chasing dots" />
 
 </div>
