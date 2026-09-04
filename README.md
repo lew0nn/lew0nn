@@ -77,7 +77,7 @@ I build audio software where signal processing, interface design, and controlled
 
 <br />
 
-## In Rotation
+## Recent Frequencies
 
 <div align="center">
 
