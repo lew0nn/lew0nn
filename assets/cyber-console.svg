@@ -104,15 +104,16 @@
   <path d="M86 340H1114M165 320H1035M267 300H933" stroke="#7457d7" stroke-opacity=".085"/>
 
   <!-- left input scope -->
-  <g filter="url(#panelShadow)">
-    <path d="M71 116L88 99H300L317 116V224L300 241H88L71 224Z" fill="url(#bezel)" stroke="#6841d0" stroke-width="3"/>
+  <g>
+    <path d="M71 116L88 99H300L317 116V224L300 241H88L71 224Z" fill="url(#bezel)" stroke="#6841d0" stroke-width="3" filter="url(#panelShadow)"/>
     <path d="M80 119L94 106H294L308 119V218L294 232H94L80 218Z" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
     <rect x="88" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
     <g clip-path="url(#leftScreen)">
       <rect x="88" y="115" width="213" height="110" fill="url(#fineGrid)"/>
       <path d="M96 178H293" stroke="#5d57b7" stroke-opacity=".28"/>
       <path d="M108 184C126 184 129 164 146 164S165 198 182 198S200 171 217 171S232 186 252 186H281" fill="none" stroke="#241850" stroke-width="10" stroke-linecap="round" opacity=".65"/>
-      <path class="micro-trace" d="M108 184C126 184 129 164 146 164S165 198 182 198S200 171 217 171S232 186 252 186H281" fill="none" stroke="url(#signal)" stroke-width="3.5" stroke-linecap="round" filter="url(#softGlow)"/>
+      <path class="micro-trace" d="M108 184C126 184 129 164 146 164S165 198 182 198S200 171 217 171S232 186 252 186H281" fill="none" stroke="url(#signal)" stroke-width="5" stroke-linecap="round" opacity=".46" filter="url(#softGlow)"/>
+      <path class="micro-trace" d="M108 184C126 184 129 164 146 164S165 198 182 198S200 171 217 171S232 186 252 186H281" fill="none" stroke="url(#signal)" stroke-width="2.75" stroke-linecap="round"/>
       <path d="M90 116L175 116L115 225H90Z" fill="url(#screenGlass)" opacity=".38"/>
     </g>
     <rect x="110" y="132" width="72" height="5" rx="2.5" fill="#aebeff"/>
@@ -127,8 +128,8 @@
   </g>
 
   <!-- right output analyser -->
-  <g filter="url(#panelShadow)">
-    <path d="M883 116L900 99H1112L1129 116V224L1112 241H900L883 224Z" fill="url(#bezel)" stroke="#514bd2" stroke-width="3"/>
+  <g>
+    <path d="M883 116L900 99H1112L1129 116V224L1112 241H900L883 224Z" fill="url(#bezel)" stroke="#514bd2" stroke-width="3" filter="url(#panelShadow)"/>
     <path d="M892 119L906 106H1106L1120 119V218L1106 232H906L892 218Z" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
     <rect x="899" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
     <g clip-path="url(#rightScreen)">
@@ -173,7 +174,8 @@
     <path d="M321 102H879M321 146H879M321 190H879M400 62V246M480 62V246M560 62V246M640 62V246M720 62V246M800 62V246" stroke="#5c48bd" stroke-opacity=".16"/>
     <rect class="scan" x="321" y="62" width="558" height="48" fill="#3f6cff" opacity=".16"/>
     <path d="M342 170C362 170 369 145 384 145S404 190 421 190S441 130 458 130S477 198 496 198S518 151 538 151S558 175 578 175S598 158 618 158S638 135 657 135S677 190 696 190S716 145 736 145S755 170 775 170H858" fill="none" stroke="#21164a" stroke-width="13" stroke-linecap="round" opacity=".6"/>
-    <path class="trace" pathLength="100" d="M342 170C362 170 369 145 384 145S404 190 421 190S441 130 458 130S477 198 496 198S518 151 538 151S558 175 578 175S598 158 618 158S638 135 657 135S677 190 696 190S716 145 736 145S755 170 775 170H858" fill="none" stroke="url(#signal)" stroke-width="4.5" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path class="trace" pathLength="100" d="M342 170C362 170 369 145 384 145S404 190 421 190S441 130 458 130S477 198 496 198S518 151 538 151S558 175 578 175S598 158 618 158S638 135 657 135S677 190 696 190S716 145 736 145S755 170 775 170H858" fill="none" stroke="url(#signal)" stroke-width="6" stroke-linecap="round" opacity=".46" filter="url(#softGlow)"/>
+    <path class="trace" pathLength="100" d="M342 170C362 170 369 145 384 145S404 190 421 190S441 130 458 130S477 198 496 198S518 151 538 151S558 175 578 175S598 158 618 158S638 135 657 135S677 190 696 190S716 145 736 145S755 170 775 170H858" fill="none" stroke="url(#signal)" stroke-width="2.75" stroke-linecap="round"/>
     <path d="M342 218H486" stroke="#d946ef" stroke-width="2" stroke-linecap="round" opacity=".62"/>
     <path d="M714 218H858" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" opacity=".68"/>
     <path d="M321 62L450 62L348 246H321Z" fill="url(#screenGlass)" opacity=".25"/>
@@ -185,36 +187,36 @@
     <text x="348" y="88" fill="#b9c5ff" font-size="11" letter-spacing="2.4">SIGNAL / CONTROL</text>
     <text x="852" y="88" text-anchor="end" fill="#d5dcff" font-size="11">48 kHz</text>
     <text x="348" y="111" fill="#746db1" font-size="7.5" letter-spacing="1.6">CH 01 / LIVE INPUT</text>
-    <text x="852" y="111" text-anchor="end" fill="#746db1" font-size="7.5" letter-spacing="1.6">SYNC / LOCKED</text>
+    <text x="824" y="111" text-anchor="end" fill="#746db1" font-size="7.5" letter-spacing="1.6">SYNC / LOCKED</text>
     <text x="348" y="239" fill="#6976bb" font-size="7">-24</text>
     <text x="852" y="239" text-anchor="end" fill="#6976bb" font-size="7">+6 dB</text>
   </g>
-  <circle class="blink-a" cx="836" cy="108" r="3" fill="#22d3ee" filter="url(#tightGlow)"/>
-  <circle class="blink-b" cx="847" cy="108" r="3" fill="#f59e0b"/>
+  <circle class="blink-a" cx="840" cy="108" r="3" fill="#22d3ee" filter="url(#tightGlow)"/>
+  <circle class="blink-b" cx="852" cy="108" r="3" fill="#f59e0b"/>
 
   <!-- monitor neck and control deck -->
   <path d="M566 271H634L650 291H550Z" fill="#080b1c" stroke="#5c48bd" stroke-width="2" stroke-linejoin="round"/>
   <path d="M574 273H626L632 281H568Z" fill="#223269" opacity=".52"/>
   <rect x="190" y="276" width="820" height="48" rx="24" fill="url(#deck)" stroke="#3659d8" stroke-width="3"/>
   <rect x="202" y="284" width="796" height="31" rx="15.5" fill="none" stroke="#3c3c87" stroke-width="1" opacity=".68"/>
-  <path d="M234 300H966" stroke="#203060" stroke-width="1"/>
+  <path d="M234 300H242M958 300H966" stroke="#203060" stroke-width="1" stroke-linecap="round"/>
 
   <!-- deck controls -->
   <rect x="248" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
   <rect x="260" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
-  <rect class="blink-a" x="422" y="292" width="30" height="8" rx="4" fill="#22d3ee"/>
+  <rect class="blink-a" x="432" y="292" width="24" height="8" rx="4" fill="#22d3ee"/>
   <rect x="778" y="289" width="174" height="20" rx="6" fill="#070d20" stroke="#303872"/>
   <rect x="790" y="295" width="150" height="8" rx="4" fill="#3d3d9a"/>
-  <rect class="blink-b" x="748" y="292" width="30" height="8" rx="4" fill="#d946ef"/>
+  <rect class="blink-b" x="744" y="292" width="24" height="8" rx="4" fill="#d946ef"/>
   <g fill="#151a3c" stroke="#5455aa" stroke-width=".8">
-    <rect x="468" y="288" width="19" height="11" rx="3"/><rect x="492" y="288" width="19" height="11" rx="3"/>
-    <rect x="516" y="288" width="19" height="11" rx="3"/><rect x="665" y="288" width="19" height="11" rx="3"/>
-    <rect x="689" y="288" width="19" height="11" rx="3"/><rect x="713" y="288" width="19" height="11" rx="3"/>
+    <rect x="460" y="288" width="14" height="11" rx="3"/><rect x="477" y="288" width="14" height="11" rx="3"/>
+    <rect x="494" y="288" width="14" height="11" rx="3"/><rect x="692" y="288" width="14" height="11" rx="3"/>
+    <rect x="709" y="288" width="14" height="11" rx="3"/><rect x="726" y="288" width="14" height="11" rx="3"/>
   </g>
   <g fill="#7466da">
-    <circle cx="477.5" cy="305" r="2"/><circle class="blink-c" cx="501.5" cy="305" r="2" fill="#22d3ee"/>
-    <circle cx="525.5" cy="305" r="2" fill="#f59e0b"/><circle cx="674.5" cy="305" r="2" fill="#f59e0b"/>
-    <circle class="blink-b" cx="698.5" cy="305" r="2" fill="#d946ef"/><circle cx="722.5" cy="305" r="2"/>
+    <circle cx="467" cy="305" r="2"/><circle class="blink-c" cx="484" cy="305" r="2" fill="#22d3ee"/>
+    <circle cx="501" cy="305" r="2" fill="#f59e0b"/><circle cx="699" cy="305" r="2" fill="#f59e0b"/>
+    <circle class="blink-b" cx="716" cy="305" r="2" fill="#d946ef"/><circle cx="733" cy="305" r="2"/>
   </g>
   <rect x="214" y="291" width="20" height="18" rx="4" fill="url(#perforation)"/>
   <rect x="966" y="291" width="20" height="18" rx="4" fill="url(#perforation)"/>
