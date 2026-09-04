@@ -105,8 +105,8 @@
 
   <!-- left input scope -->
   <g>
-    <path d="M71 116L88 99H300L317 116V224L300 241H88L71 224Z" fill="url(#bezel)" stroke="#6841d0" stroke-width="3" filter="url(#panelShadow)"/>
-    <path d="M80 119L94 106H294L308 119V218L294 232H94L80 218Z" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
+    <rect x="71" y="99" width="246" height="142" rx="20" fill="url(#bezel)" stroke="#6841d0" stroke-width="3" filter="url(#panelShadow)"/>
+    <rect x="80" y="106" width="228" height="126" rx="14" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
     <rect x="88" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
     <g clip-path="url(#leftScreen)">
       <rect x="88" y="115" width="213" height="110" fill="url(#fineGrid)"/>
@@ -129,8 +129,8 @@
 
   <!-- right output analyser -->
   <g>
-    <path d="M883 116L900 99H1112L1129 116V224L1112 241H900L883 224Z" fill="url(#bezel)" stroke="#514bd2" stroke-width="3" filter="url(#panelShadow)"/>
-    <path d="M892 119L906 106H1106L1120 119V218L1106 232H906L892 218Z" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
+    <rect x="883" y="99" width="246" height="142" rx="20" fill="url(#bezel)" stroke="#514bd2" stroke-width="3" filter="url(#panelShadow)"/>
+    <rect x="892" y="106" width="228" height="126" rx="14" fill="none" stroke="#32347e" stroke-width="1" opacity=".8"/>
     <rect x="899" y="115" width="213" height="110" rx="12" fill="url(#screen)"/>
     <g clip-path="url(#rightScreen)">
       <rect x="899" y="115" width="213" height="110" fill="url(#fineGrid)"/>
