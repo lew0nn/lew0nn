@@ -7,13 +7,11 @@
 </a>
 
 <p>
-  <a href="https://github.com/lew0nn"><img src="https://komarev.com/ghpvc/?username=lew0nn&label=PROFILE%20VIEWS&color=7C3AED&style=flat-square" alt="Profile views" /></a>
   <a href="https://github.com/lew0nn?tab=followers"><img src="https://img.shields.io/github/followers/lew0nn?label=FOLLOWERS&style=flat-square&color=00CFE8&labelColor=555&logo=github&logoColor=EAFDFF" alt="Followers" /></a>
   <a href="#projects"><img src="https://img.shields.io/badge/FOCUS-AUDIO%20DSP-2962FF?style=flat-square&labelColor=555" alt="Focus — Audio DSP" /></a>
 </p>
 
 <p>
-  <a href="https://github.com/lew0nn"><img src="https://img.shields.io/badge/PROFILE-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
   <a href="https://open.spotify.com/user/31tkdf56o4ybejfgvodwd2jy6ahi"><img src="https://img.shields.io/badge/SPOTIFY-00C853?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify profile" /></a>
   <a href="https://soundcloud.com/lewonn"><img src="https://img.shields.io/badge/SOUNDCLOUD-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" alt="SoundCloud profile" /></a>
   <a href="https://buymeacoffee.com/lewonn"><img src="https://img.shields.io/badge/BUYMECOFFEE-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=111111" alt="Buy me a coffee" /></a>
