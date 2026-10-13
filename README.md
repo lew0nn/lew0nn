@@ -3,7 +3,7 @@
 <img src="./assets/cyber-console.svg" width="100%" alt="lew0nn — animated audio signal control room" />
 
 <a href="https://github.com/lew0nn">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=640&lines=Building+real-time+audio+systems;Turning+signals+into+controlled+damage;C%2B%2B+%E2%80%A2+JUCE+%E2%80%A2+DSP+%E2%80%A2+VST3;Developing+random+ideas" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=640&lines=Somewhere+between+music+and+code;Spending+my+time+on+audio%2C+music+and+software;Audio+plug-ins+and+instruments;C%2B%2B+%E2%80%A2+JUCE+%E2%80%A2+DSP+%E2%80%A2+VST3;VOIDWORM+and+PHOQER%2C+free+on+GitHub" alt="Typing introduction" />
 </a>
 
 <p>
